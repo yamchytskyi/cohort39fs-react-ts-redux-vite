@@ -19,8 +19,8 @@ const getButtonColor = (
   }
 };
 
-export const StyledButton = styled("button")<StyledButtonProps>`
-  height: 70px;
+export const StyledButton = styled("button") <StyledButtonProps>`
+  min-height: 70px;
   width: 100%;
   border: none;
   border-radius: 4px;
